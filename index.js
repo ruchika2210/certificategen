@@ -1,8 +1,8 @@
 const express=require("express");
 const bodyParser=require("body-parser");
-const uploadroute=require('./Src/multer')
-const inforoute=require('./Src/info')
-const createroute=require('./Src/creating')
+const uploadroute=require('./Src/fileupload')
+const inforoute=require('./Src/templateupload')
+const createroute=require('./Src/create')
 
 
 const app=express();

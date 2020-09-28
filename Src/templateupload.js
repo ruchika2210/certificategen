@@ -2,7 +2,7 @@ const express=require("express");
 const bodyParser=require("body-parser");
 const router=express.Router()
 const mongoose = require('mongoose');
-const jimp=require('jimp');
+
 
 mongoose.connect("mongodb://localhost:27017/certi", {useNewUrlParser: true,useUnifiedTopology:true},()=>{
     console.log("database connected");
